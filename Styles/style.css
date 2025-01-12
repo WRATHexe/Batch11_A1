@@ -9,6 +9,9 @@
     padding: 0;
     margin: 0 ;
   }
+  body{
+    background-color: rgb(245, 245, 245);
+  }
   section{
     margin-bottom: 80px;
   }
@@ -35,7 +38,9 @@ main{
     font-weight: 700;
     font-size: 40px;
 }
-
+.text-center{
+    text-align: center;
+}
  .btn{
     font-size: 18px;
     padding: 17px 34px;
@@ -59,6 +64,7 @@ main{
     color: rgb(255, 255, 255);
     border : none;
     border-radius: 8px;
+    align-self:flex-start;
  }
 
 /* BANNER SECTION */
@@ -87,6 +93,7 @@ main{
     margin-top: 24px;
 }
 
+
 /* VISION SECTION */
 .sec-des{
     margin-top: 24px;
@@ -95,15 +102,25 @@ main{
 .card-container{
     display: flex;
     gap: 24px;
-    
 }
 .card-item{
     padding: 32px;
-    box-sizing: border-box;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     position: relative;
+}
+img{
+    align-self: flex-start;
+}
+.item-title{
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.item-sub{
+    flex:1;
+    margin-bottom: 12px;
 }
 .item-bg-1{
     background: rgb(247, 235, 207);
@@ -120,13 +137,35 @@ main{
 .item-bg-3>.btn-vision{
     background: rgb(255, 194, 57);
 }
-img{
-    align-self: flex-start;
-}
-.item-title{
-    position: ;
-    margin-top: 25px;
-    margin-bottom: 12px;
-    font-size: 20px;
-}
 
+/* News Section */
+
+.news-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.news-item{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+}
+.news-item>img{
+    border-radius: 24px;
+}
+.news-info{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    padding: none;
+
+}
+.news-time{
+    display: flex;
+    gap: 12px;
+}
+.news-text{
+}
