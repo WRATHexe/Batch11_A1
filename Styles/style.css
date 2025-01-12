@@ -22,7 +22,7 @@ main{
     background: rgb(198, 228, 214);
 }
 .light-text{
-    color: rgba(14, 14, 14, 0.5);
+    color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
 }
@@ -246,6 +246,25 @@ input[type="email"]{
     color: rgb(255, 255, 255);
     border : none;
     border-radius: 0px 8px 8px 0px;
+}
+/* quote */
+.quote{
+    padding: 48px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+cite{
+    display: block;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 4px;
 }
 
 /* animation */
