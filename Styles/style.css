@@ -8,7 +8,10 @@
   *{
     padding: 0;
     margin: 0 ;
-  } 
+  }
+  section{
+    margin-bottom: 80px;
+  }
 main{
     margin: auto 160px;
 }
@@ -18,6 +21,8 @@ main{
 }
 .light-text{
     color: rgba(14, 14, 14, 0.5);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .dark-text{
@@ -25,11 +30,35 @@ main{
     font-weight: 700;
     font-size: 40px;
 }
+.dark-text-2{
+    color: rgba(14, 14, 14,0.8);
+    font-weight: 700;
+    font-size: 40px;
+}
+
  .btn{
-    border-radius: 8px;
+    font-size: 18px;
+    padding: 17px 34px;
     background: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
-
+    border : none;
+    border-radius: 8px;
+ }
+ .btn-vision{
+    font-size: 16px;
+    padding: 11px 20px;
+    color: rgb(255, 255, 255);
+    border : none;
+    border-radius: 8px;
+    align-self: flex-start;
+ }
+ .btn-news{
+    font-size: 18px;
+    padding: 13px 26px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    border : none;
+    border-radius: 8px;
  }
 
 /* BANNER SECTION */
@@ -55,7 +84,49 @@ main{
     font-size: 56px;
 }
 .btn-banner{
-    font-size: 18px;
-    padding: 17px 34px;
     margin-top: 24px;
 }
+
+/* VISION SECTION */
+.sec-des{
+    margin-top: 24px;
+    margin-bottom:32px;
+}
+.card-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.card-item{
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.item-bg-1{
+    background: rgb(247, 235, 207);
+}
+.item-bg-3{
+    background: rgba(84, 144, 245, 0.2);
+}
+.item-bg-1>.btn-vision{
+    background: rgb(84, 144, 245);
+}
+.light-green>.btn-vision{
+    background: rgb(9, 161, 92);
+}
+.item-bg-3>.btn-vision{
+    background: rgb(255, 194, 57);
+}
+img{
+    align-self: flex-start;
+}
+.item-title{
+    position: ;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
