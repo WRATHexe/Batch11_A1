@@ -247,3 +247,18 @@ input[type="email"]{
     border : none;
     border-radius: 0px 8px 8px 0px;
 }
+
+/* animation */
+.amount:hover{
+    background: rgb(198, 228, 214);
+}
+.btn:hover{
+        background: rgb(9, 161, 92);}
+.btn-news:hover{
+        background: rgb(9, 161, 92);}
+.btn-vision:hover{
+        background: rgba(84, 144, 245, 0.2);
+    }
+.submit:hover{
+    background: rgb(9, 161, 92);
+}
